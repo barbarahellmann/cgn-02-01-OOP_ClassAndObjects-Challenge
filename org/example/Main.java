@@ -1,5 +1,7 @@
 package org.example;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args)
     {
@@ -11,7 +13,12 @@ public class Main {
             "Cube", "Hybrid", 2020
     );
 
+    Motorcycle motorcycle = new Motorcycle(
+            "Piaggio", "Vespa", 1995, "80ccm", "Scooter"
+    );
+
         System.out.println(vehicle);
         System.out.println(car);
+        System.out.println(motorcycle);
     }
 }
