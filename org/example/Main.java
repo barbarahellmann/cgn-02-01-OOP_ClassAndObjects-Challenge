@@ -19,6 +19,7 @@ public class Main {
 
         System.out.println(vehicle);
         System.out.println(car);
-        System.out.println(motorcycle);
+        String text = motorcycle + ", Type = " + motorcycle.getType(motorcycle) + ", Engine = " + motorcycle.getEngine(motorcycle);
+        System.out.println(text);
     }
 }
