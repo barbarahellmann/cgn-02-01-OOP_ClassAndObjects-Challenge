@@ -16,11 +16,11 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "Manufacturer='" + manufacturer + '\'' +
-                ", Model='" + model + '\'' +
-                ", YearOfManufacture=" + yearOfManufacture +
-                '}';
+        return "Vehicle: " +
+                "Manufacturer = " + manufacturer +
+                ", Model = " + model +
+                ", YearOfManufacture = " + yearOfManufacture +
+                ".";
     }
 
 
