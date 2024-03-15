@@ -1,12 +1,10 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Vehicle {
 
-    private String manufacturer;
-    private String model;
-    private int yearOfManufacture;
+    private final String manufacturer;
+    private final String model;
+    private final int yearOfManufacture;
 
     public Vehicle(String manufacturer, String model, int yearOfManufacture) {
         this.manufacturer = manufacturer;
@@ -19,13 +17,7 @@ public class Vehicle {
         return "Vehicle: " +
                 "Manufacturer = " + manufacturer +
                 ", Model = " + model +
-                ", YearOfManufacture = " + yearOfManufacture +
-                ".";
+                ", YearOfManufacture = " + yearOfManufacture;
     }
-
-
-
-
-
 }
 
