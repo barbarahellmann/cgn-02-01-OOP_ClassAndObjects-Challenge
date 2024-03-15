@@ -4,22 +4,22 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Vehicle {
 
-    private String Manufacturer;
-    private String Model;
+    private String manufacturer;
+    private String model;
     private int yearOfManufacture;
 
-    public Vehicle(String Manufacturer, String Model, int yearOfManufacture) {
-        this.Manufacturer = Manufacturer;
-        this.Model = Model;
+    public Vehicle(String manufacturer, String model, int yearOfManufacture) {
+        this.manufacturer = manufacturer;
+        this.model = model;
         this.yearOfManufacture = yearOfManufacture;
     }
 
     @Override
     public String toString() {
         return "Vehicle{" +
-                "Manufacturer='" + Manufacturer + '\'' +
-                ", Model='" + Model + '\'' +
-                ", YearOfManufacture=" + YearOfManufacture +
+                "Manufacturer='" + manufacturer + '\'' +
+                ", Model='" + model + '\'' +
+                ", YearOfManufacture=" + yearOfManufacture +
                 '}';
     }
 
